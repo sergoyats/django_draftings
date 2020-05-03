@@ -26,5 +26,5 @@ urlpatterns = [
     path('counting_unique_firstnames/', counting_unique_firstnames),
     path('get_turnover/', get_turnover),
     path('list_of_orders/', list_of_orders),
-    path('', admin.site.urls)
+    path('', admin.site.urls),
 ]
